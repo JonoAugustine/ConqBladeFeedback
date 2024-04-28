@@ -149,7 +149,7 @@ Feedback: The Imperial Jav mastery has given them a new ability: Shield Throw...
 > They also have different ranges, different damage types, different damage amounts, different multi-hit, different animations and speeds. 
 > There is not a single meaningful similarity beyond the name
 > 
-\>CasualScrub
+> *- CasualScrub*
 
 Solution: Either rename the new ability or add clarification to both the mastery-unlocked ability and the vet line passive. I hope this is just another classic translation issue or someting because adding these descriptions to the game and somehow not seeing how confusing it will be is kinda funny 
 
