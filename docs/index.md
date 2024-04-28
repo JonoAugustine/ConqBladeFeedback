@@ -110,7 +110,7 @@ Simple Solution: swap which text box has which text.
 
 With the number of seasons ever increasing, a click-drag side-scroll becomes more and more *and more* painful to interact with. This should've changed a while ago. I suggest it change to a grid which can actually be quickly moved through (see the attached mockup). It would be even better if the option (permanent setting!) was added to change from a grid to a list which hides most of the banner art so more seasons can be seen without scrolling. Simple QoL improvement.
 
-<img src="./seasonal_ui.png" alt="Seasonal UI" width="50%"/>
+
 
 ## Display ALL Ability Cooldowns for 2-Weapon Units
 
