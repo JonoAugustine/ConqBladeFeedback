@@ -7,12 +7,12 @@
   - [Make Mounted Archers Useful, Please](#make-mounted-archers-useful-please)
     - [Khorchins:](#khorchins)
     - [Khevtuul:](#khevtuul)
-  - [Adjust Font Sizing \& Color in Doctrine Info (Alchemy \& War Scholar)](#adjust-font-sizing--color-in-doctrine-info-alchemy--war-scholar)
-  - [Add Visual Feedback for Support Points and Leadership](#add-visual-feedback-for-support-points-and-leadership)
-  - [Improve Seasonal Unit Menu](#improve-seasonal-unit-menu)
-  - [Display Remaining Leadership Value in Leaderboard](#display-remaining-leadership-value-in-leaderboard)
-  - [Display ALL Ability Cooldowns for 2-Weapon Units](#display-all-ability-cooldowns-for-2-weapon-units)
   - [Display ALL Unit Data in Barracks Unit Details](#display-all-unit-data-in-barracks-unit-details)
+  - [Add Visual Feedback for Support Points and Leadership](#add-visual-feedback-for-support-points-and-leadership)
+  - [Adjust Font Sizing \& Color in Doctrine Info (Alchemy \& War Scholar)](#adjust-font-sizing--color-in-doctrine-info-alchemy--war-scholar)
+  - [Improve Seasonal Unit Menu](#improve-seasonal-unit-menu)
+  - [Display ALL Ability Cooldowns for 2-Weapon Units](#display-all-ability-cooldowns-for-2-weapon-units)
+  - [Display Remaining Leadership Value in Leaderboard](#display-remaining-leadership-value-in-leaderboard)
   - [Add Capacity % for Supply Dump Items (Volume: N)](#add-capacity--for-supply-dump-items-volume-n)
   - [Remove "OK" Popup Confirmation (modals)](#remove-ok-popup-confirmation-modals)
   - [Clarify Imp Jav Shield Throw Abilities](#clarify-imp-jav-shield-throw-abilities)
@@ -65,48 +65,6 @@ IMO one of the coolest *ideas* for a unit in the entire game || not as cool as l
     - `Charge` chould be moved to an independent ability, but this idea retains the "bow ability leads to sword ability" identity of the initial designs
 
 
-## Adjust Font Sizing & Color in Doctrine Info (Alchemy & War Scholar)
-
-Feedback: The font visual hierarchy in doctrine info, for some reason I must assume is accidental, prioritizes the generic "A Doctrine is an enhance..." blurb over the actual doctrine info. 
-
-Simple Solution: swap which text box has which text.
-
-## Add Visual Feedback for Support Points and Leadership
-
-Feedback: A key issue with Support Points is the lack of any immediate feedback. Aside from buff/debuff status icons and healing numbers, there is no visual, "empirical", and immediate feedback for how support points are gained while in battle. 
-
-Solution: I propose the addition of text-based UI for gained support points while the game is actually being played out.
-It could be placed either in the same location as the Unit-Kills-count UI (when you kill an enemy soldier) or just below it. I beleive this change alone would notably increase the number of players using support abilities and units || even if 100% increase from 1% is only 2% :azusaLaugh:  ||.
-
-TLDR: Add in-match UI for Support Points gained in the same manner as unit-kills. Visual feedback heavily implied importance and support is important!
-
-
-## Improve Seasonal Unit Menu
-
-With the number of seasons ever increasing, a click-drag side-scroll becomes more and more *and more* painful to interact with. This should've changed a while ago. I suggest it change to a grid which can actually be quickly moved through (see the attached mockup). It would be even better if the option (permanent setting!) was added to change from a grid to a list which hides most of the banner art so more seasons can be seen without scrolling. Simple QoL improvement.
-
-
-## Display Remaining Leadership Value in Leaderboard
-
-Replace the remaiing troop count with remaining leadership value, since it is a more accurate representation of the strength of either side's forces. You could also replace the dead troop count with this, since it serves little purpose -- dead hero count is similarly not useful.  You could keep the existing information as a tooltip (i.e. hover-able) or, as with the hero count, display a fraction.
-
-The new team-statistics could look something akin to:
-```yaml
-Leadership  Troops   Heroes 
-   800     500/1000   12/15
-
-(replace the words with the icons in game)
-```
-You could also have the leadership be a fraction/ratio for the positive/negative visual feedback
-
-
-## Display ALL Ability Cooldowns for 2-Weapon Units
-
-Feedback: Conditional unit commands are difficult to keep track of, e.g. Shield Maiden's charge cooldown should be visible while in wielding spears. I understand the initial thought process behind hiding inaccessible abilities, but it is not worth the decrease in information on display.
-
-Possible Solution: Units display all their abilities at all times. Inaccessible abilities (weapon-dependent, rage-dependent, etc.) are greyed out or have some demarcation to show they cannot be used at that time. For 2-weapon units, the abilities for the weapon not in use could simply be added in a row above the current weapon's abilities.
-
-
 ## Display ALL Unit Data in Barracks Unit Details
 
 This has always been a gripe of, I assume, everyone who plays the game. Why is there so much info hidden/missing from the UI? It's just frustrating and confusing.
@@ -129,6 +87,51 @@ Some examples of data which is either not well detailed or just outright non-exi
 - Musket reload speed
 ```
 I'm sure I've missed something so please let me know if I should add to the list. 
+
+
+## Add Visual Feedback for Support Points and Leadership
+
+Feedback: A key issue with Support Points is the lack of any immediate feedback. Aside from buff/debuff status icons and healing numbers, there is no visual, "empirical", and immediate feedback for how support points are gained while in battle. 
+
+Solution: I propose the addition of text-based UI for gained support points while the game is actually being played out.
+It could be placed either in the same location as the Unit-Kills-count UI (when you kill an enemy soldier) or just below it. I beleive this change alone would notably increase the number of players using support abilities and units || even if 100% increase from 1% is only 2% ||.
+
+TLDR: Add in-match UI for Support Points gained in the same manner as unit-kills. Visual feedback heavily implied importance and support is important!
+
+
+## Adjust Font Sizing & Color in Doctrine Info (Alchemy & War Scholar)
+
+Feedback: The font visual hierarchy in doctrine info, for some reason I must assume is accidental, prioritizes the generic "A Doctrine is an enhance..." blurb over the actual doctrine info. 
+
+Simple Solution: swap which text box has which text.
+
+
+## Improve Seasonal Unit Menu
+
+With the number of seasons ever increasing, a click-drag side-scroll becomes more and more *and more* painful to interact with. This should've changed a while ago. I suggest it change to a grid which can actually be quickly moved through (see the attached mockup). It would be even better if the option (permanent setting!) was added to change from a grid to a list which hides most of the banner art so more seasons can be seen without scrolling. Simple QoL improvement.
+
+![Seasonal UI](/seasonal_ui.png)
+
+## Display ALL Ability Cooldowns for 2-Weapon Units
+
+Feedback: Conditional unit commands are difficult to keep track of, e.g. Shield Maiden's charge cooldown should be visible while in wielding spears. I understand the initial thought process behind hiding inaccessible abilities, but it is not worth the decrease in information on display.
+
+Possible Solution: Units display all their abilities at all times. Inaccessible abilities (weapon-dependent, rage-dependent, etc.) are greyed out or have some demarcation to show they cannot be used at that time. For 2-weapon units, the abilities for the weapon not in use could simply be added in a row above the current weapon's abilities.
+
+
+## Display Remaining Leadership Value in Leaderboard
+
+Replace the remaiing troop count with remaining leadership value, since it is a more accurate representation of the strength of either side's forces. You could also replace the dead troop count with this, since it serves little purpose -- dead hero count is similarly not useful.  You could keep the existing information as a tooltip (i.e. hover-able) or, as with the hero count, display a fraction.
+
+The new team-statistics could look something akin to:
+```yaml
+Leadership  Troops   Heroes 
+   800     500/1000   12/15
+
+(replace the words with the icons in game)
+```
+You could also have the leadership be a fraction/ratio for the positive/negative visual feedback
+
 
 ## Add Capacity % for Supply Dump Items (Volume: N)
 
