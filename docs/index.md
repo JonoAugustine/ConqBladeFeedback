@@ -1,3 +1,19 @@
+# A Collection of Feedback Directed at the Developers of Conqueror's Blade
+*HQRegent, A.K.A: Union Hamster, Yume no Yuki, Yuki de Yumi, BuffCavArchers*
+
+- [A Collection of Feedback Directed at the Developers of Conqueror's Blade](#a-collection-of-feedback-directed-at-the-developers-of-conquerors-blade)
+  - [Make Mounted Archers Useful, Please](#make-mounted-archers-useful-please)
+  - [Adjust Font Sizing \& Color in Doctrine Info (Alchemy \& War Scholar)](#adjust-font-sizing--color-in-doctrine-info-alchemy--war-scholar)
+  - [Add Visual Feedback for Support Points and Leadership](#add-visual-feedback-for-support-points-and-leadership)
+  - [Improve Seasonal Unit Menu](#improve-seasonal-unit-menu)
+  - [Display Remaining Leadership Value in Leaderboard](#display-remaining-leadership-value-in-leaderboard)
+  - [Display ALL Ability Cooldowns for 2-Weapon Units](#display-all-ability-cooldowns-for-2-weapon-units)
+  - [Display ALL Unit Data in Barracks Unit Details](#display-all-unit-data-in-barracks-unit-details)
+  - [Add Capacity % for Supply Dump Items (Volume: N)](#add-capacity--for-supply-dump-items-volume-n)
+  - [Remove "OK" Popup Confirmation (modals)](#remove-ok-popup-confirmation-modals)
+  - [Clarify Imp Jav Shield Throw Abilities](#clarify-imp-jav-shield-throw-abilities)
+
+
 ## Make Mounted Archers Useful, Please
 
 Of the 5 (?) Mounted bow units (rattan are crossbows and outriders are javelinists but lets include them anyway), essentially only outriders see and are of any use. The other's, even after reworks, are basically not worth their leadership once the blue-lock is over. Khevtuul and rangers are prime examples of this since they require non-insignificant effor to obtain. Rangers had issues in the past with their power and I don't envy anyone who needs to balance chu-ko-nu, but even ignoring them entirely leaves 3 incredibly unique units essentially as wasted barracks slots. 
