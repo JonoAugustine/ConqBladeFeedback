@@ -1,8 +1,12 @@
 # A Collection of Feedback Directed at the Developers of Conqueror's Blade
-*HQRegent, A.K.A: Union Hamster, Yume no Yuki, Yuki de Yumi, BuffCavArchers*
+*By HQRegent, A.K.A: Union Hamster, Yume no Yuki, Yuki de Yumi, BuffCavArchers*
+
+*Furthermore, buff Mounted Archers.*
 
 - [A Collection of Feedback Directed at the Developers of Conqueror's Blade](#a-collection-of-feedback-directed-at-the-developers-of-conquerors-blade)
   - [Make Mounted Archers Useful, Please](#make-mounted-archers-useful-please)
+    - [Khorchins:](#khorchins)
+    - [Khevtuul:](#khevtuul)
   - [Adjust Font Sizing \& Color in Doctrine Info (Alchemy \& War Scholar)](#adjust-font-sizing--color-in-doctrine-info-alchemy--war-scholar)
   - [Add Visual Feedback for Support Points and Leadership](#add-visual-feedback-for-support-points-and-leadership)
   - [Improve Seasonal Unit Menu](#improve-seasonal-unit-menu)
@@ -13,6 +17,8 @@
   - [Remove "OK" Popup Confirmation (modals)](#remove-ok-popup-confirmation-modals)
   - [Clarify Imp Jav Shield Throw Abilities](#clarify-imp-jav-shield-throw-abilities)
 
+----
+*All feedback from this point was originally posted in the official MyGames Discord prior to their relenquishing of publishing rights. Each post has been modified slightly remove repeated text and to be better formatted.*
 
 ## Make Mounted Archers Useful, Please
 
@@ -21,17 +27,14 @@ Mounted archers shine brightest against infantry and are faster than their armor
 
 My post is too long so ill split the change suggestions into messages on this thread
 
-Ironcap bowriders: I feel these are more or less fine
-Outriders: I feel these are more or less fine
-rattan rangers: I won't lie I don't even attempt to use these ~~cuz i never bothered to unlock them~~ so others would be better at giving suggestions
+- Ironcap bowriders: I feel these are more or less fine
+- Outriders: I feel these are more or less fine
+- rattan rangers: I won't lie I don't even attempt to use these ~~cuz i never bothered to unlock them~~ so others would be better at giving suggestions
 
 Key takeaway:
 Ranged is always hard to balance in every game, but in a world where charging 20 Cataphracts or wing'ed hussars through an 8-foot-wide door is a valid strategy I'm sure we can give the units which took over Eurasia multiple times some love.
 
-PS: Gib gold longbow please
-
-
-**khorchins**:
+### Khorchins:
 
 - Their encircling ability, `Hunt`, is so situational it might as well not exist
 - They are described as fast, harrasment units with light armor but are slower than either melee cav of the same season (please lmk if the in-game numbers are inacurrate)
@@ -42,7 +45,7 @@ PS: Gib gold longbow please
     2. loose their armor-piercing arrows for some N seconds or until the same button is pressed again
     3. the unit returns to the Hero, e.g. cover commander, while loosing arrows when in range
 
-**khevtuul**: 
+### Khevtuul: 
 
 IMO one of the coolest *ideas* for a unit in the entire game || not as cool as longbows, Welsh/Briton fans rise! ||
 - Too squishy to effectively enter melee combat against any purple invantry IME
@@ -60,6 +63,7 @@ IMO one of the coolest *ideas* for a unit in the entire game || not as cool as l
     2a. `Rally to Commander`: Unit runs back to the Hero with the typical cover-commander speed bonus
     2b. `Charge`: Unit swaps to swords then follows a directed charge
     - `Charge` chould be moved to an independent ability, but this idea retains the "bow ability leads to sword ability" identity of the initial designs
+
 
 ## Adjust Font Sizing & Color in Doctrine Info (Alchemy & War Scholar)
 
@@ -95,17 +99,13 @@ Leadership  Troops   Heroes
 ```
 You could also have the leadership be a fraction/ratio for the positive/negative visual feedback
 
-*This is part ? of my ♾️ part series on UI issues in our beloved game, thank you for coming.*
-https://discord.com/channels/473496809432678401/1132697365267099658 | https://discord.com/channels/473496809432678401/1132717080320426024 | https://discord.com/channels/473496809432678401/1135003845479649372 | https://discord.com/channels/473496809432678401/1138669744350838874
-
-*Furthermore, buff Mounted Archers.*
-
 
 ## Display ALL Ability Cooldowns for 2-Weapon Units
 
 Feedback: Conditional unit commands are difficult to keep track of, e.g. Shield Maiden's charge cooldown should be visible while in wielding spears. I understand the initial thought process behind hiding inaccessible abilities, but it is not worth the decrease in information on display.
 
 Possible Solution: Units display all their abilities at all times. Inaccessible abilities (weapon-dependent, rage-dependent, etc.) are greyed out or have some demarcation to show they cannot be used at that time. For 2-weapon units, the abilities for the weapon not in use could simply be added in a row above the current weapon's abilities.
+
 
 ## Display ALL Unit Data in Barracks Unit Details
 
@@ -130,11 +130,6 @@ Some examples of data which is either not well detailed or just outright non-exi
 ```
 I'm sure I've missed something so please let me know if I should add to the list. 
 
-*This is part ? of my ♾️ part series on UI issues in our beloved game, thank you for coming.*
-https://discord.com/channels/473496809432678401/1132697365267099658 | https://discord.com/channels/473496809432678401/1132717080320426024 | https://discord.com/channels/473496809432678401/1135003845479649372 | https://discord.com/channels/473496809432678401/1138669744350838874 | https://discord.com/channels/473496809432678401/1140065008965931018
-
-*Furthermore, buff Mounted Archers.*
-
 ## Add Capacity % for Supply Dump Items (Volume: N)
 
 Feedback: The Supply Dump UI is overwhelming and difficult to manage
@@ -153,7 +148,8 @@ Feedback: The Imperial Jav mastery has given them a new ability: Shield Throw...
 
 > They also have different ranges, different damage types, different damage amounts, different multi-hit, different animations and speeds. 
 > There is not a single meaningful similarity beyond the name
-- CasualScrub
+> 
+\>CasualScrub
 
 Solution: Either rename the new ability or add clarification to both the mastery-unlocked ability and the vet line passive. I hope this is just another classic translation issue or someting because adding these descriptions to the game and somehow not seeing how confusing it will be is kinda funny 
 
