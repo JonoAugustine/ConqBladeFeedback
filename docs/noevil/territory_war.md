@@ -1,6 +1,5 @@
-# No Evil
+# Territory Wars
 
-- [No Evil](#no-evil)
 - [Territory Wars](#territory-wars)
   - [Command Pre-Briefing](#command-pre-briefing)
     - [Preflight Check](#preflight-check)
@@ -14,8 +13,6 @@
     - [Scouting](#scouting)
     - [Extras](#extras)
 
-
-# Territory Wars
 
 ## Command Pre-Briefing 
 *v1.2.0*
