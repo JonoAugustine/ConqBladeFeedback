@@ -8,10 +8,11 @@
     - [Khorchins:](#khorchins)
     - [Khevtuul:](#khevtuul)
   - [Display ALL Unit Data in Barracks Unit Details](#display-all-unit-data-in-barracks-unit-details)
+  - [Improve Seasonal Unit Menu](#improve-seasonal-unit-menu)
+  - [Properly Sort Shieldwall Units](#properly-sort-shieldwall-units)
+  - [Display ALL Ability Cooldowns for 2-Weapon Units](#display-all-ability-cooldowns-for-2-weapon-units)
   - [Add Visual Feedback for Support Points and Leadership](#add-visual-feedback-for-support-points-and-leadership)
   - [Adjust Font Sizing \& Color in Doctrine Info (Alchemy \& War Scholar)](#adjust-font-sizing--color-in-doctrine-info-alchemy--war-scholar)
-  - [Improve Seasonal Unit Menu](#improve-seasonal-unit-menu)
-  - [Display ALL Ability Cooldowns for 2-Weapon Units](#display-all-ability-cooldowns-for-2-weapon-units)
   - [Display Remaining Leadership Value in Leaderboard](#display-remaining-leadership-value-in-leaderboard)
   - [Add Capacity % for Supply Dump Items (Volume: N)](#add-capacity--for-supply-dump-items-volume-n)
   - [Remove "OK" Popup Confirmation (modals)](#remove-ok-popup-confirmation-modals)
@@ -89,6 +90,29 @@ Some examples of data which is either not well detailed or just outright non-exi
 I'm sure I've missed something so please let me know if I should add to the list. 
 
 
+## Improve Seasonal Unit Menu
+
+With the number of seasons ever increasing, a click-drag side-scroll becomes more and more *and more* painful to interact with. This should've changed a while ago. I suggest it change to a grid which can actually be quickly moved through (see the attached mockup). It would be even better if the option (permanent setting!) was added to change from a grid to a list which hides most of the banner art so more seasons can be seen without scrolling. Simple QoL improvement.
+
+<img src="./seasonal_ui.png" alt="Seasonal UI" width="50%"/>
+
+## Properly Sort Shieldwall Units
+
+**Problem**:
+Shieldwalls units often do not sort themselves reasonably. In the example PRG have enough units to make 15 pairs of low-high shields, and yet on each end there is a sole high-position shield. A similar issue often appears when forming the other hybrid spear, Maidens; they'll often double-up and have a pair of high-high or low-low position shields.
+
+**Solution**:
+Shieldwallers should sort into consistent pairs every time. if there is an uneven model count, the unpaired models should all take the low/kneeled stance
+
+<img src="./shield_wall_cap.png" alt="Standing Lone Spear Unit" width="25%">
+
+## Display ALL Ability Cooldowns for 2-Weapon Units
+
+Feedback: Conditional unit commands are difficult to keep track of, e.g. Shield Maiden's charge cooldown should be visible while in wielding spears. I understand the initial thought process behind hiding inaccessible abilities, but it is not worth the decrease in information on display.
+
+Possible Solution: Units display all their abilities at all times. Inaccessible abilities (weapon-dependent, rage-dependent, etc.) are greyed out or have some demarcation to show they cannot be used at that time. For 2-weapon units, the abilities for the weapon not in use could simply be added in a row above the current weapon's abilities.
+
+
 ## Add Visual Feedback for Support Points and Leadership
 
 Feedback: A key issue with Support Points is the lack of any immediate feedback. Aside from buff/debuff status icons and healing numbers, there is no visual, "empirical", and immediate feedback for how support points are gained while in battle. 
@@ -104,19 +128,6 @@ TLDR: Add in-match UI for Support Points gained in the same manner as unit-kills
 Feedback: The font visual hierarchy in doctrine info, for some reason I must assume is accidental, prioritizes the generic "A Doctrine is an enhance..." blurb over the actual doctrine info. 
 
 Simple Solution: swap which text box has which text.
-
-
-## Improve Seasonal Unit Menu
-
-With the number of seasons ever increasing, a click-drag side-scroll becomes more and more *and more* painful to interact with. This should've changed a while ago. I suggest it change to a grid which can actually be quickly moved through (see the attached mockup). It would be even better if the option (permanent setting!) was added to change from a grid to a list which hides most of the banner art so more seasons can be seen without scrolling. Simple QoL improvement.
-
-<img src="./seasonal_ui.png" alt="Seasonal UI" width="50%"/>
-
-## Display ALL Ability Cooldowns for 2-Weapon Units
-
-Feedback: Conditional unit commands are difficult to keep track of, e.g. Shield Maiden's charge cooldown should be visible while in wielding spears. I understand the initial thought process behind hiding inaccessible abilities, but it is not worth the decrease in information on display.
-
-Possible Solution: Units display all their abilities at all times. Inaccessible abilities (weapon-dependent, rage-dependent, etc.) are greyed out or have some demarcation to show they cannot be used at that time. For 2-weapon units, the abilities for the weapon not in use could simply be added in a row above the current weapon's abilities.
 
 
 ## Display Remaining Leadership Value in Leaderboard

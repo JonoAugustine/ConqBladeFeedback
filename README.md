@@ -1,4 +1,5 @@
 # ConqBladeFeedback
-A Collection My of Feedback for Conqueror's Blade
+*A Collection My of Works Relating for Conqueror's Blade*
 
-https://jonoaugustine.github.io/ConquerorsBladeFeedback
+https://jonoaugustine.github.io/ConquerorsBladePortfolio
+https://jonoaugustine.github.io/ConquerorsBladePortfolio/noevil
