@@ -104,7 +104,7 @@
   - Team memebers have 60 sec cooldown
   - Strive to use 5 to 7 per TW
   - Prioritize using *Bound* artillery
-- Shields lead they way | Pike on a swivel | Shock look for or make openings
+- Shields lead they way \| Pike on a swivel \| Shock look for or make openings
 - Fight together, die together. This isn't Matchmaking.
 - *Stay with your unit*
 - **Remind everyone to update ⁠attendance and ⁠army-info**
