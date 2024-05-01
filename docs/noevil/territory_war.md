@@ -1,3 +1,5 @@
+[Back](./index.md)
+
 # Territory Wars
 
 - [Territory Wars](#territory-wars)
